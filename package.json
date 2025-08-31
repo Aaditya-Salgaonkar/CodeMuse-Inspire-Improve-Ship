@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "chart": "^0.1.2",
+    "chart.js": "^4.5.0",
+    "framer-motion": "^12.23.12",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^15.6.6",
+    "react-tsparticles": "^2.12.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4"
+  }
+}
